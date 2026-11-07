@@ -1,0 +1,35 @@
+# Where the ads get posted. One chat per line. Lines starting with # are ignored.
+#   @username            -> public group (from its "share link")
+#   Group name           -> private group with no username (matched by its name in your chat list)
+#   target | 1234        -> post inside a topic of a forum group (1234 = topic number from the link)
+
+# --- Public groups (username) ---
+@EthicalSolutionad
+@toronto_iran_group
+@TorontoAdvertising
+@Iranians_of_Canada
+@Toronto_Iranians_community
+@EjareToronto
+@torontonline24
+@buy_renttoronto
+@Toronto_Ads_Noskan
+@Toronto_Iranian
+@EjarehCanada
+@PlazayeIranianToronto
+@TehrantoNews
+@iranianTorontoBusiness
+
+# --- Groups without a username (matched by name) ---
+اجاره (تورنتوی بزرگ)
+کاریابی و کارفرمایی
+پزشکان ودندانپزشکان تورنتو
+همه چیز درباره کانادا
+Iranian Market
+اینجا آنلاین 24/7
+کسب و کار
+مارکت تورنتو و حومه
+بازارچه رسمی تورنتو
+
+# --- Toronto Group topics ---
+Toronto Group | 7267
+Toronto Group | 19
