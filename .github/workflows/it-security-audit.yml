@@ -1,0 +1,20 @@
+name: IT Security Audit flyer (my account)
+on:
+  schedule:
+    - cron: "44 21 * * *"   # 21:44 UTC = 4:44 PM Toronto (winter time)
+  workflow_dispatch:
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install telethon
+      - run: python post.py
+        env:
+          MEDIA: IT_Security_Audit.jpg
+          TG_SESSION: ${{ secrets.TG_SESSION }}
+          TG_API_ID: ${{ secrets.TG_API_ID }}
+          TG_API_HASH: ${{ secrets.TG_API_HASH }}
